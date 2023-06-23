@@ -8265,7 +8265,7 @@ blockquote cite::before {
   }
 }
 .footer-5-col-2 ul {
-  display: flex;
+  /* display: flex; */
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -8273,9 +8273,9 @@ blockquote cite::before {
   width: 50%;
   flex: 0 0 50%;
 }
-.footer-5-col-2 ul li:nth-child(even) {
+/* .footer-5-col-2 ul li:nth-child(even) {
   padding-left: 15px;
-}
+} */
 .footer-5-col-2 .footer-widget-link ul li a {
   padding-left: 0;
   font-family: var(--tp-ff-jakarta);
@@ -10501,7 +10501,7 @@ blockquote cite::before {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   z-index: 1;
-  padding: 50px 40px 35px 40px;
+  padding: 50px 26px 35px 14px;
 }
 @media (max-width: 767px) {
   .services-two {
