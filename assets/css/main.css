@@ -3219,10 +3219,6 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 /*----------------------------------------*/
 /*  3.1 Header Style 1
 /*----------------------------------------*/
-#header-sticky {
-  display: flex;
-  justify-content: space-around;
-}
 
 .tplogo__area a img {
   max-width: 105px;
@@ -3978,6 +3974,68 @@ only screen and (min-width: 768px) and (max-width: 991px),
 /*----------------------------------------*/
 /*  3.2 Header Style 2
 /*----------------------------------------*/
+html{
+  overflow-x: hidden !important;
+}
+
+.head_section {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.head_section .head_logo{
+  margin-left: 80px;
+}
+
+.menu_section {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 10px;
+  gap: 30px;
+}
+
+.offcanvas-open-btn {
+  display: none;
+  margin-right: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .menu_section {
+    display: none;
+  }
+
+  .offcanvas-open-btn {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .head_section a{
+    margin-left: 30px;
+  }
+
+  .offcanvas-open-btn{
+    margin-right: 30px;
+  }
+  
+}
+
+@media only screen and (max-width: 661px){
+  .head_section .head_logo{
+    margin-left: 10px;
+  }
+
+  .offcanvas-open-btn{
+    margin-right: 10px;
+  }
+  
+}
+
+
 .header-lang .icon {
   margin-right: 10px;
 }
