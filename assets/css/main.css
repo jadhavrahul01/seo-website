@@ -10304,7 +10304,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 .expertiselist{
   overflow: auto;
-  max-height: 350px;
+  max-height: 180px;
 }
 
 .tpbanner-three-title {
