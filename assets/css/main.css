@@ -10302,6 +10302,10 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   transform: matrix(1, 0, 0, 1, 0, 0);
   animation: borderanimate 5s linear infinite;
 }
+.expertiselist{
+  overflow: auto;
+  max-height: 350px;
+}
 
 .tpbanner-three-title {
   font-family: var(--tp-ff-dmsans);
