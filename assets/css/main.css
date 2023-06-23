@@ -3974,7 +3974,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 /*----------------------------------------*/
 /*  3.2 Header Style 2
 /*----------------------------------------*/
-html{
+html {
   overflow-x: hidden !important;
 }
 
@@ -3986,7 +3986,7 @@ html{
   margin-top: 30px;
 }
 
-.head_section .head_logo{
+.head_section .head_logo {
   margin-left: 80px;
 }
 
@@ -4013,26 +4013,26 @@ html{
   }
 }
 
-@media only screen and (max-width: 700px){
-  .head_section a{
+@media only screen and (max-width: 700px) {
+  .head_section a {
     margin-left: 30px;
   }
 
-  .offcanvas-open-btn{
+  .offcanvas-open-btn {
     margin-right: 30px;
   }
-  
+
 }
 
-@media only screen and (max-width: 661px){
-  .head_section .head_logo{
+@media only screen and (max-width: 661px) {
+  .head_section .head_logo {
     margin-left: 10px;
   }
 
-  .offcanvas-open-btn{
+  .offcanvas-open-btn {
     margin-right: 10px;
   }
-  
+
 }
 
 
@@ -9914,7 +9914,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  text-emphasis-color: transparent;
   line-height: 1;
   background-image: -webkit-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
   background-image: -moz-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
@@ -10767,7 +10767,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  text-emphasis-color: transparent;
   padding: 0 0 20px 0;
 }
 
@@ -11928,6 +11928,44 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 /*----------------------------------------*/
 /*  7.20 Services css
 /*----------------------------------------*/
+.service_box {
+  width: 570px;
+}
+
+.service_title {
+  width: 500px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .service_box {
+    width: 540px;
+  }
+
+  .service_title {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .service_box {
+    width: 450px;
+  }
+
+  .service_title {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .service_box {
+    width: auto;
+  }
+
+  .service_title {
+    width: auto !important
+  }
+}
+
 .tpservices-list ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
