@@ -10302,7 +10302,8 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   transform: matrix(1, 0, 0, 1, 0, 0);
   animation: borderanimate 5s linear infinite;
 }
-.expertiselist{
+
+.expertiselist {
   overflow: auto;
   max-height: 180px;
 }
@@ -26733,6 +26734,57 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -ms-transform: translateY(-2px);
   -o-transform: translateY(-2px);
   transform: translateY(-2px);
+}
+
+/* Work CSS */
+.work-area .cont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-area .cont .box {
+  height: 180px;
+  width: 300px;
+  /* border: 1px solid; */
+  overflow: hidden;
+  padding: 22px;
+}
+
+.work-area .cont .box img {
+  /* background-size: cover; */
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.work-area .cont .box2 img {
+  height: 100px;
+  width: 500px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 25px;
+}
+
+.work-area .cont .box3 img {
+  height: 250px;
+  width: 250px;
+  margin-top: -55px;
+}
+
+.work-area .cont .box4 img {
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+}
+
+@media (min-width: 1400px) {
+  .work-area .container {
+    max-width: 1300px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
