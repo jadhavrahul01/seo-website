@@ -4784,6 +4784,18 @@ only screen and (min-width: 768px) and (max-width: 991px),
   }
 }
 
+#header_logo {
+  height: 50px;
+  width: 170px;
+}
+
+@media only screen and (max-width: 991px) {
+  #header_logo {
+    height: 30px;
+    width: 170px;
+  }
+}
+
 .main-menu ul li {
   position: relative;
   list-style: none;
@@ -26758,7 +26770,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   /* background-size: cover; */
   width: 100%;
   height: 100%;
- 
+
 }
 
 .work-area .cont .box2 img {
@@ -26787,38 +26799,83 @@ only screen and (min-width: 576px) and (max-width: 767px),
   }
 }
 
-.cont2{
+/** International client area css */
+@media (min-width: 1400px) {
+  .link-area .container {
+    max-width: 1300px;
+  }
+}
+
+.cont2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.link-area .cont2 .box {
+  height: 230px;
+  width: 370px;
+  border: 1px solid;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.link-area .cont2 .box img {
   height: 100%;
   width: 100%;
 }
 
-.link-area .cont2 .box{
-  height: 80px;
+.link-overlay {
+  height: 0%;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0px;
+  transition: .3s;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: auto;
+  overflow: hidden;
 }
 
-.link-area .cont2 .box a{
-  font-size: 2rem;
+.link-overlay .link-btn {
+  height: 50px;
+  width: 100px;
+  background-color: #0077B5;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 780px){
-  .link-area .cont2 .box a{
-    font-size: 1.5rem;
-  }
+.link-overlay .link-btn:hover{
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-@media only screen and (min-width: 350px) and (max-width: 500px){
-  .link-area .cont2 .box a{
-    font-size: 1rem;
-  }
+.link-overlay svg {
+  transform: rotate(320deg);
+  margin-left: 5px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 350px){
-  .link-area .cont2 .box a{
+.link-area .cont2 .box:hover .link-overlay {
+  height: 100%;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 780px) {}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {}
+
+@media only screen and (min-width: 200px) and (max-width: 350px) {
+  .link-area .cont2 .box a {
     font-size: .8rem;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
