@@ -26787,4 +26787,38 @@ only screen and (min-width: 576px) and (max-width: 767px),
   }
 }
 
+.cont2{
+  height: 100%;
+  width: 100%;
+}
+
+.link-area .cont2 .box{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: auto;
+}
+
+.link-area .cont2 .box a{
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 780px){
+  .link-area .cont2 .box a{
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px){
+  .link-area .cont2 .box a{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 350px){
+  .link-area .cont2 .box a{
+    font-size: .8rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
