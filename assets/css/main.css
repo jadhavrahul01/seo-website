@@ -20723,7 +20723,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-inner-box {
     width: 450px;
     padding: 40px 25px 40px 25px;
-    top: 100px;
+    top: 0px;
   }
 }
 
