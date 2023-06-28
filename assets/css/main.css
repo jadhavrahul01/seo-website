@@ -20566,7 +20566,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   background: var(--tp-common-white);
   box-shadow: 0px -40px 50px rgba(10, 4, 22, 0.1);
   border-radius: 10px;
-  padding: 90px 170px 75px 170px;
+  padding: 90px 170px 5px 170px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
