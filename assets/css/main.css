@@ -150,7 +150,7 @@
   --tp-grey-8: #55585B;
   --tp-text-body: #565764;
   --tp-text-1: #271D3A;
-  --tp-theme-primary: #4260FF;
+  --tp-theme-primary: #23a9cf;
   --tp-theme-secondary: #131683;
   --tp-theme-3: #05003B;
   --tp-theme-green: #59BA41;
@@ -1035,7 +1035,7 @@ div.test img {
 .menu-btn:hover,
 .tp-btn:hover {
   color: var(--tp-common-white);
-  background-color: #3653EB;
+  background-color: #23a9cf;
   border-color: var(--tp-theme-primary);
 }
 
@@ -1176,15 +1176,15 @@ div.test img {
   font-size: 16px;
   line-height: 1;
   color: var(--tp-common-white);
-  background-color: #007CF5;
+  background-color: #23a9cf;
   display: inline-block;
   padding: 12px 32px;
   border-radius: 4px;
-  border: 2px solid #007CF5;
+  border: 2px solid #23a9cf;
 }
 
 .light-blue-btn:hover {
-  color: #007CF5;
+  color: #23a9cf;
   background-color: transparent;
 }
 
@@ -9539,7 +9539,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .footer-5 .footer-widget-social a i:hover {
-  border-color: #007CF5;
+  border-color: #23a9cf;
 }
 
 .footer-5-col-1 .phone-call {
@@ -9709,7 +9709,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .footer-bottom-5 .footer-widget-social a:hover i {
-  background-color: #007CF5;
+  background-color: #23a9cf;
 }
 
 .footer-bottom-5 .footer-widget-copyright {
@@ -9739,7 +9739,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .footer-bottom-inner .footer-widget-social a:hover i {
-  background-color: #007CF5;
+  background-color: #23a9cf;
 }
 
 .footer-bottom-inner .footer-widget-copyright {
@@ -13439,16 +13439,16 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   font-size: 16px;
   line-height: 1;
   color: var(--tp-common-white);
-  background-color: #007CF5;
+  background-color: #23a9cf;
   display: inline-block;
   padding: 13px 32px;
   border-radius: 4px;
-  border: 2px solid #007CF5;
+  border: 2px solid #23a9cf;
 }
 
 .tp-panel-top .light-blue-btn:hover {
   background-color: transparent;
-  color: #007CF5;
+  color: #23a9cf;
 }
 
 .project-5 .tp-panel-item img {
@@ -16245,7 +16245,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .testimonial-5-content .slick-dots li.slick-active {
-  background-color: #007CF5;
+  background-color: #23a9cf;
 }
 
 .author-title-5 {
@@ -19582,7 +19582,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   bottom: -10px;
   height: 100%;
   width: 100%;
-  background: radial-gradient(109.39% 109.39% at 93.51% 103.88%, #007CF5 0%, rgba(0, 124, 245, 0.52) 100%);
+  background: radial-gradient(109.39% 109.39% at 93.51% 103.88%, #23a9cf 0%, rgba(0, 124, 245, 0.52) 100%);
   border-radius: 10px;
   z-index: -2;
 }
@@ -19673,8 +19673,8 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .agreement .switcher label input:checked+span {
-  background: #007CF5;
-  border-color: #007CF5;
+  background: #23a9cf;
+  border-color: #23a9cf;
 }
 
 .agreement .switcher label input:checked+span small {
@@ -19696,7 +19696,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .web-item input:focus {
-  border-color: #007CF5;
+  border-color: #23a9cf;
   height: 54px;
 }
 
@@ -23444,7 +23444,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 
 .tp-accordion-progress-active {
   position: absolute;
-  background: #007CF5;
+  background: #23a9cf;
   height: 100%;
   width: 4px;
 }
@@ -24995,7 +24995,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   position: absolute;
   content: "";
   position: absolute;
-  background: #007CF5;
+  background: #23a9cf;
   height: 100%;
   width: 3px;
   bottom: auto;
