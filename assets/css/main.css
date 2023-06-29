@@ -3684,6 +3684,10 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
   backdrop-filter: blur(16px);
 }
 
+.header-sticky-logo{
+  display: none;
+}
+
 .tptransparent__header.header-sticky .tpheader__sign a {
   color: #0E1331;
 }
