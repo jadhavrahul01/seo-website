@@ -1,11 +1,11 @@
-<svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 -1 0 512.39)" gradientUnits="userSpaceOnUse" x1="256.05" x2="256.05" y1="512.34" y2=".34">
+<svg id="Layer_1" enable-background="new 0 0 512 512" height="150px" viewBox="0 0 512 512" width="150px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!-- <linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 -1 0 512.39)" gradientUnits="userSpaceOnUse" x1="256.05" x2="256.05" y1="512.34" y2=".34">
 		<stop offset="0" stop-color="#f704fe" />
 		<stop offset="1" stop-color="#24bce3" />
-	</linearGradient>
+	</linearGradient> -->
 	<circle clip-rule="evenodd" cx="256" cy="256" fill="url(#SVGID_1_)" fill-rule="evenodd" r="256" />
 	<g id="Layer_x0020_1">
-		<g id="_472156432" clip-rule="evenodd" fill="#fffffe" fill-rule="evenodd">
+		<g id="_472156432" clip-rule="evenodd" fill="#ef7226" fill-rule="evenodd">
 			<path id="_472156864" d="m114.3 312.5h283.3v-180.7h-283.3zm286.6 6.5h-289.7c-1.8 0-3.2-1.4-3.2-3.2v-187.2c0-1.8 1.4-3.2 3.2-3.2h289.7c1.8 0 3.2 1.4 3.2 3.2v187.2c0 1.7-1.5 3.2-3.2 3.2z" />
 			<path id="_472156840" d="m217.6 359.8c-1.8 0-3.2-1.4-3.2-3.2v-40.8c0-1.8 1.4-3.2 3.2-3.2s3.2 1.4 3.2 3.2v40.8c.1 1.8-1.4 3.2-3.2 3.2zm76.8 0c-1.8 0-3.2-1.4-3.2-3.2v-40.8c0-1.8 1.4-3.2 3.2-3.2s3.2 1.4 3.2 3.2v40.8c-.1 1.8-1.5 3.2-3.2 3.2z" />
 			<path id="_472157152" d="m206.4 359.8c-1.8 0-3.4 1.5-3.4 3.4v11.6c0 3 2.5 5.5 5.5 5.5h95.2c3 0 5.5-2.5 5.5-5.5v-11.5c0-1.8-1.5-3.4-3.4-3.4h-99.4zm97.1 26.8h-95.1c-6.6 0-11.9-5.3-11.9-11.9v-11.6c0-5.5 4.4-9.8 9.8-9.8h99.3c5.5 0 9.8 4.4 9.8 9.8v11.6c.1 6.7-5.3 11.9-11.9 11.9z" />
