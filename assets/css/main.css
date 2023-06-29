@@ -3684,7 +3684,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
   backdrop-filter: blur(16px);
 }
 
-.header-sticky-logo{
+.header-sticky-logo {
   display: none;
 }
 
@@ -3759,6 +3759,10 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 @media (max-width: 767px) {
   .tp-main-menu-mobile .tp-menu-banner-title-2 {
     font-size: 18px;
+  }
+
+  .md-no-mrg {
+    margin: 0 !important;
   }
 }
 
@@ -26859,7 +26863,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   justify-content: center;
 }
 
-.link-overlay .link-btn:hover{
+.link-overlay .link-btn:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -26876,7 +26880,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
   .tpsection-title-two {
     font-size: 60px;
-}
+  }
 
 }
 
@@ -26884,7 +26888,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
   .tpsection-title-two {
     font-size: 60px;
-}
+  }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 350px) {
