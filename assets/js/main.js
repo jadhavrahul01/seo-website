@@ -230,8 +230,10 @@
 		var scroll = $(window).scrollTop();
 		if (scroll < 200) {
 			$("#header-sticky").removeClass("header-sticky");
+			$("#header-sticky-logo").addClass("header-sticky-logo");
 		} else {
 			$("#header-sticky").addClass("header-sticky");
+			$("#header-sticky-logo").removeClass("header-sticky-logo");
 		}
 	});
 
