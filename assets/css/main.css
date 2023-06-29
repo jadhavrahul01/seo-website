@@ -26872,9 +26872,20 @@ only screen and (min-width: 576px) and (max-width: 767px),
   height: 100%;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 780px) {}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
 
-@media only screen and (min-width: 350px) and (max-width: 500px) {}
+  .tpsection-title-two {
+    font-size: 60px;
+}
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+
+  .tpsection-title-two {
+    font-size: 60px;
+}
+}
 
 @media only screen and (min-width: 200px) and (max-width: 350px) {
   .link-area .cont2 .box a {
