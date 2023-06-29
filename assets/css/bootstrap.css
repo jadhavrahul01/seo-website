@@ -6251,7 +6251,7 @@ fieldset:disabled .btn {
     .modal-fullscreen-xl-down .modal-content {
         height: 100%;
         border: 0;
-        border-radius: 0
+        border-radius: 0;
     }
 
     .modal-fullscreen-xl-down .modal-header {
