@@ -1,11 +1,13 @@
-<svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="Layer_1" enable-background="new 0 0 512 512" height="150px" viewBox="0 0 512 512" width="150px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!--
 	<linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 -1 0 512.5)" gradientUnits="userSpaceOnUse" x1="256.05" x2="256.05" y1="512.45" y2=".45">
-		<stop offset="0" stop-color="#f704fe" />
-		<stop offset="1" stop-color="#24bce3" />
+	<stop offset="0" stop-color="#f704fe" />
+	<stop offset="1" stop-color="#24bce3" />
 	</linearGradient>
+	-->
 	<g clip-rule="evenodd" fill-rule="evenodd">
 		<circle cx="256" cy="256" fill="url(#SVGID_1_)" r="256" />
-		<g fill="#fffffe">
+		<g fill="#ef6c20">
 			<path d="m399.5 126.8h-287.1v43.2h287.1zm-112.6 27.1c0 4-3.2 7.2-7.2 7.2h-24.2c-4 0-7.2-3.2-7.2-7.2v-11c0-4 3.2-7.2 7.2-7.2h24.2c4 0 7.2 3.2 7.2 7.2zm43.6 7.2h-24.2c-4 0-7.2-3.2-7.2-7.2v-11c0-4 3.2-7.2 7.2-7.2h24.2c4 0 7.2 3.2 7.2 7.2v11c.1 3.9-3.2 7.2-7.2 7.2zm58.1-7.2c0 4-3.2 7.2-7.2 7.2h-24.2c-4 0-7.2-3.2-7.2-7.2v-11c0-4 3.2-7.2 7.2-7.2h24.2c4 0 7.2 3.2 7.2 7.2z" />
 			<path d="m381.5 142.1h-24.2c-.3 0-.7.3-.7.7v11c0 .3.3.7.7.7h24.2c.3 0 .7-.3.7-.7v-11c-.1-.4-.3-.7-.7-.7z" />
 			<path d="m330.5 142.1h-24.2c-.3 0-.7.3-.7.7v11c0 .3.3.7.7.7h24.2c.3 0 .7-.3.7-.7v-11c-.1-.4-.3-.7-.7-.7z" />

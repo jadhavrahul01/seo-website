@@ -1,11 +1,11 @@
-<svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 -1 0 512.5)" gradientUnits="userSpaceOnUse" x1="256.05" x2="256.05" y1="512.45" y2=".45">
+<svg id="Layer_1" enable-background="new 0 0 512 512" height="150px" viewBox="0 0 512 512" width="150px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!-- <linearGradient id="SVGID_1_" gradientTransform="matrix(1 0 0 -1 0 512.5)" gradientUnits="userSpaceOnUse" x1="256.05" x2="256.05" y1="512.45" y2=".45">
 		<stop offset="0" stop-color="#f704fe" />
 		<stop offset="1" stop-color="#24bce3" />
-	</linearGradient>
+	</linearGradient> -->
 	<circle clip-rule="evenodd" cx="256" cy="256" fill="url(#SVGID_1_)" fill-rule="evenodd" r="256" />
 	<g id="Layer_x0020_1">
-		<g id="_239293024" clip-rule="evenodd" fill="#fffffe" fill-rule="evenodd">
+		<g id="_239293024" clip-rule="evenodd" fill="#ef6c20" fill-rule="evenodd">
 			<path id="_239294368" d="m255.4 404.1h-123.5c-13.3 0-24.1-10.8-24.1-24.1v-248c0-13.3 10.8-24.1 24.1-24.1h123.4c13.3 0 24.1 10.8 24.1 24.1v28.9c0 1.8-1.4 3.2-3.2 3.2s-3.2-1.4-3.2-3.2v-28.9c0-9.8-7.9-17.6-17.6-17.6h-123.5c-9.8 0-17.6 7.9-17.6 17.6v248c0 9.8 7.9 17.7 17.6 17.7h123.4c9.8 0 17.6-7.9 17.6-17.7v-28.9c0-1.8 1.4-3.2 3.2-3.2s3.2 1.4 3.2 3.2v28.9c.2 13.4-10.7 24.1-23.9 24.1z" />
 			<path id="_239294392" d="m246.6 386.4h-105.7c-8.3 0-15.1-6.8-15.1-15.1v-230.4c0-8.3 6.8-15.1 15.1-15.1h25.9c5.3 0 9.8 3 11.9 7.9.9 2.1 1.8 2.1 2.2 2.1h25.7c.3 0 1.3 0 2.2-2.1 2-4.8 6.6-7.9 11.9-7.9h25.9c8.3 0 15.1 6.8 15.1 15.1v20.2c0 1.8-1.4 3.2-3.2 3.2s-3.2-1.4-3.2-3.2v-20.2c0-4.8-3.9-8.6-8.6-8.6h-25.9c-2.7 0-4.9 1.5-5.9 4-2.3 5.3-6.1 6.1-8.1 6.1h-25.8c-2 0-5.9-.8-8.1-6.1-1-2.5-3.3-4-5.9-4h-25.9c-4.8 0-8.6 3.9-8.6 8.6v230.4c0 4.8 3.9 8.6 8.6 8.6h105.8c4.8 0 8.6-3.9 8.6-8.6v-20.3c0-1.8 1.4-3.2 3.2-3.2s3.2 1.4 3.2 3.2v20.2c-.1 8.3-7 15.2-15.3 15.2z" />
 			<path id="_239294848" d="m203.6 128.2h-19.9c-1.8 0-3.2-1.4-3.2-3.2s1.4-3.2 3.2-3.2h19.9c1.8 0 3.2 1.4 3.2 3.2.1 1.8-1.4 3.2-3.2 3.2z" />
