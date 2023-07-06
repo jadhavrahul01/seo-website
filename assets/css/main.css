@@ -1147,7 +1147,8 @@ div.test img {
 }
 
 .radient-btn:hover {
-  color: var(--tp-common-white);
+  background: linear-gradient(180deg, #FE2981 100%, #A70647 0%);
+  color: var(--tp-grey-6);
   transform: translateY(-2px);
 }
 
@@ -3053,7 +3054,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   font-size: 60px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -12330,7 +12331,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   font-size: 20px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(16, 15, 15, 0.5);
   margin-bottom: 25px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -12371,7 +12372,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .services-nav .nav-pills .nav-link.active {
-  color: var(--tp-common-white);
+  color: #ff3030;
   background-color: transparent;
 }
 
@@ -12403,8 +12404,8 @@ only screen and (min-width: 768px) and (max-width: 991px),
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  background: #2A3694;
-  border: 1px solid #4351A4;
+  background: #fff;
+  border: 1px solid #fff;
   border-radius: 20px;
 }
 
@@ -12488,7 +12489,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.45;
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
   opacity: 0.7;
   margin-bottom: 39px;
 }
@@ -12505,7 +12506,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-weight: 700;
   font-size: 34px;
   letter-spacing: -0.02em;
-  color: var(--tp-common-white);
+  color: var(--tp-common-black);
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
