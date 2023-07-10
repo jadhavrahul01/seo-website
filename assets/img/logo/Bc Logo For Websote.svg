@@ -19,9 +19,9 @@
 	<text class="cls-4" transform="translate(24.26 24.91) scale(1.02 1)">
 		Communicate
 	</text>
-	<ellipse class="cls-5" cx="55.14" cy="7.05" rx="12.98" ry="7.05" />
-	<polygon class="cls-5" points="45.93 12.01 43.68 16.13 51.08 13.28 55.4 6.13 45.93 12.01" />
-	<text class="cls-6" transform="translate(49.93 9.09)">
+	<ellipse class="cls-5" transform="translate(10)" cx="55.14" cy="7.05" rx="12.98" ry="7.05" />
+	<polygon class="cls-5" transform="translate(10)" points="45.93 12.01 43.68 16.13 51.08 13.28 55.4 6.13 45.93 12.01" />
+	<text class="cls-6" transform="translate(59.93 9.09)">
 		BC
 	</text>
 </svg>
