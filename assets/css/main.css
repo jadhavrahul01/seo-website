@@ -24035,7 +24035,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 /*  7.18 Services-details css
 /*----------------------------------------*/
 .services-details {
-  margin-top: -268px;
+  margin-top: -280px;
   position: relative;
   z-index: 1;
 }
@@ -24064,7 +24064,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .services-details-title {
   font-family: var(--tp-ff-jakarta);
   font-weight: 700;
-  font-size: 76px;
+  font-size: 28px;
   line-height: 1.05;
   letter-spacing: -0.03em;
   color: #0E1331;
@@ -24073,19 +24073,19 @@ only screen and (min-width: 768px) and (max-width: 991px),
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .services-details-title {
-    font-size: 50px;
+    font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-details-title {
-    font-size: 50px;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 767px) {
   .services-details-title {
-    font-size: 40px;
+    font-size: 15px;
     letter-spacing: -0.01em;
   }
 }
