@@ -15025,7 +15025,7 @@ div.price-open {
 .plan-inner {
   background: #fff;
   margin: 0 auto;
-  min-width: 280px;
+  min-width: 315px;
   max-width: 100%;
   position: relative;
 }
@@ -15050,10 +15050,10 @@ div.price-open {
 
 .entry-title .price {
   position: absolute;
-  bottom: -25px;
+  bottom: -55px;
   background: #20BADA;
-  height: 95px;
-  width: 95px;
+  height: 140px;
+  width: 140px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -15067,10 +15067,10 @@ div.price-open {
 
 .price span {
   position: absolute;
-  font-size: 9px;
-  bottom: -10px;
-  left: 30px;
-  font-weight: 400;
+  font-size: 15px;
+  bottom: 13px;
+  left: 9px;
+  font-weight: 600;
 }
 
 .entry-content {
