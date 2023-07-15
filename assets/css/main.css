@@ -124,6 +124,10 @@
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   --tp-ff-jakarta: 'Plus Jakarta Sans', sans-serif;
   --tp-ff-dmsans: 'DM Sans', sans-serif;
+  --font-family-primary: 'Fjalla One',
+    sans-serif;
+  --font-family-secondary: 'Noto Sans',
+    sans-serif;
   /** @color declaration */
   --tp-common-white: #ffffff;
   --tp-common-black: #000;
@@ -9611,7 +9615,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .footer-5-col-2 ul li {
-  width: 50%;
+  width: 100%;
   flex: 0 0 50%;
 }
 
@@ -10326,7 +10330,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 
 .expertiselist {
   overflow: auto;
-  max-height: 180px;
+  max-height: 265px;
 }
 
 .tpbanner-three-title {
@@ -11255,6 +11259,68 @@ only screen and (min-width: 768px) and (max-width: 991px),
 /*  7.1 Slider css
 /*----------------------------------------*/
 /*hero style two css*/
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+
+  20% {
+    left: 0%;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+div#slider {
+  overflow: hidden;
+}
+
+div#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+
 .hero_thumbs__two {
   height: 480px;
 }
@@ -15060,7 +15126,6 @@ div.price-open {
   overflow: hidden;
   border-radius: 50px;
   border: 5px solid #fff;
-  line-height: 80px;
   font-size: 28px;
   font-weight: 700;
 }
@@ -15068,7 +15133,8 @@ div.price-open {
 .price span {
   position: absolute;
   font-size: 15px;
-  bottom: 13px;
+  top: 30%;
+  bottom: 50%;
   left: 9px;
   font-weight: 600;
 }
@@ -27048,14 +27114,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /*# sourceMappingURL=main.css.map */
 
 
-.portfolio-box{
+.portfolio-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
 }
-.portfolio-box img{
+
+.portfolio-box img {
   height: 100%;
   width: 20%;
   margin: 2%;
@@ -27064,13 +27131,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
   aspect-ratio: 3/2;
   transition: 0.3s;
 }
-.portfolio-box img:hover{
+
+.portfolio-box img:hover {
   transform: scale(1.3);
 }
-@media(max-width: 710px){
-  .portfolio-box img{
+
+@media(max-width: 710px) {
+  .portfolio-box img {
     width: 45%;
     margin-top: 20px;
-    
+
   }
 }
