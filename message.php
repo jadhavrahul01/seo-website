@@ -9,7 +9,7 @@
     if(filter_var($email, FILTER_VALIDATE_EMAIL)){
       $receiver = "pratikdesai4841@gmail.com"; //enter that email address where you want to receive all messages
       $subject = "From: $name <$email>";
-      $body = "Name: $name\nPhone: $phone\nEmail: $email\nAddress: $location\nCompany Name: $cname\n\nRegard,\n$name";
+      $body = "Name: $name\nPhone: $phone\nEmail: $email\nCompany Name: $cname\nLocation: $location\n\nRegard,\n$name";
       $sender = "From: $email";
       if(mail($receiver, $subject, $body, $sender)){
         header("Location: thankyou.html");
