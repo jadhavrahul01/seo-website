@@ -402,21 +402,42 @@
                 <h4 class="contact-form-title">Contact Us</h4>
                 <form id="contact-form" action="message1.php" method="POST">
                   <div class="contact-form-input">
-                    <input name="name" type="text" placeholder="Full name" />
+                    <input
+                      name="name"
+                      type="text"
+                      placeholder="Full name"
+                      required
+                    />
                   </div>
                   <div class="contact-form-input">
-                    <input name="email" type="email" placeholder="Your email" />
+                    <input
+                      name="email"
+                      type="email"
+                      placeholder="Your email"
+                      required
+                    />
                   </div>
                   <div class="contact-form-input">
-                    <input name="phone" type="number" placeholder="Phone No" />
+                    <input
+                      name="phone"
+                      type="number"
+                      placeholder="Phone No"
+                      required
+                    />
                   </div>
                   <div class="contact-form-input">
-                    <input name="location" type="text" placeholder="Location" />
+                    <input
+                      name="location"
+                      type="text"
+                      placeholder="Location"
+                      required
+                    />
                   </div>
                   <div class="contact-form-input">
                     <textarea
                       placeholder="Your Comment"
                       name="message"
+                      required
                     ></textarea>
                   </div>
                   <div
@@ -426,17 +447,27 @@
                       class="form-check-input"
                       type="checkbox"
                       value=""
+                      name="check"
                       id="flexCheckDefault01"
+                      required
                     />
                     <label class="contact-form-label" for="flexCheckDefault01"
-                      >By submitting, i’m agreed to the Terms & Conditons</label
+                      >By submitting, i’m agreed to the Terms &
+                      Conditions</label
                     >
                   </div>
                   <div class="contact-form-btn">
-                    <button type="submit" class="tp-btn">Send Message</button>
+                    <button
+                      type="submit"
+                      id="submit"
+                      name="submit"
+                      class="tp-btn"
+                    >
+                      Send Message
+                    </button>
                   </div>
                 </form>
-                <p class="ajax-response"></p>
+                <!-- <p class="ajax-response"></p> -->
               </div>
             </div>
           </div>
