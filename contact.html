@@ -400,20 +400,48 @@
             <div class="offset-xl-1 col-xl-6 col-lg-6">
               <div class="contact-form">
                 <h4 class="contact-form-title">Contact Us</h4>
-                <form action="" class="my-contact-form">
-                  <input type="text" placeholder="Your name" />
-                  <input type="email" placeholder="Your Email" />
-                 
-                  <input type="text" placeholder="Phone Number" />
-                  <input type="text" placeholder="Location" />
-                  <textarea name="" id="" cols="30" rows="5" placeholder="Your Comment"></textarea>
-                 <div>
-                   <input type="checkbox">
-                   <span>By submitting,i'm agreed to the Term & Condition</span>
-                
-                </div>
+                <form action="message1.php" class="my-contact-form">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                  />
 
-                 <button type="submit">Send Message</button>
+                  <input
+                    type="number"
+                    name="phone"
+                    placeholder="Phone Number"
+                    required
+                  />
+                  <input
+                    type="text"
+                    name="location"
+                    placeholder="Location"
+                    required
+                  />
+                  <textarea
+                    name="message"
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="Your Comment"
+                    required
+                  ></textarea>
+                  <div>
+                    <input type="checkbox" required />
+                    <span
+                      >By submitting,i'm agreed to the Terms & Conditions</span
+                    >
+                  </div>
+
+                  <button type="submit">Send Message</button>
                 </form>
                 <!-- <p class="ajax-response"></p> -->
               </div>
