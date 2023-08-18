@@ -400,7 +400,11 @@
             <div class="offset-xl-1 col-xl-6 col-lg-6">
               <div class="contact-form">
                 <h4 class="contact-form-title">Contact Us</h4>
-                <form action="message1.php" class="my-contact-form">
+                <form
+                  action="message1.php"
+                  class="my-contact-form"
+                  method="post"
+                >
                   <input
                     type="text"
                     name="name"
@@ -428,7 +432,7 @@
                   />
                   <textarea
                     name="message"
-                    id=""
+                    id="message"
                     cols="30"
                     rows="5"
                     placeholder="Your Comment"
